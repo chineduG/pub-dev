@@ -43,6 +43,11 @@
       </a>
       <div class="site-header-space"></div>
       <div class="site-header-mask"></div>
+      <div class="site-header-search">
+        <form action="/packages" method="GET">
+          <input class="site-header-search-input" name="q" placeholder="New search..." autocomplete="on"/>
+        </form>
+      </div>
       <div class="site-header-nav scroll-container">
         <div class="nav-login-container">
           <button id="-account-login" class="nav-main-button link">Sign in</button>
@@ -104,14 +109,6 @@
       </div>
     </div>
     <div id="banner-container"></div>
-    <div class="_banner-bg">
-      <div class="container">
-        <form class="search-bar banner-item" action="/packages">
-          <input class="input" name="q" placeholder="Search packages" autocomplete="on" autofocus="autofocus"/>
-          <button class="icon" aria-label="search"></button>
-        </form>
-      </div>
-    </div>
     <main class="-wide-header-detail-page">
       <div class="detail-wrapper -active">
         <div class="detail-header">
